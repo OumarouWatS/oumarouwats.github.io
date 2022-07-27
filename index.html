@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <htlm>
     <head>
-        <title>Meilleuirs Delices</title>
-        <meta charset="utf-8">
-   <style>
-       .header{
-           background-color: rgb(90, 0, 236);
-           padding: 10px:
-       }
-       .body{
-          background-color: rgb(197, 207, 211);
-          padding: 15px; 
-       }
-       .footer{
-           background-color: rgb(166, 94, 202);
-           padding:10px;
-       }
-       .table{
-           width: 50%;
-       }
-       #logo {
-            position: relative;   
-       }
-       
-       #logo img {
-            position: absolute; 
-            top: 0px;
-            right: 0px;
-       }
-       
-   </style>
+    <title>Meilleuirs Delices</title>
+    <meta charset="utf-8">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+          background-color: #f1f1f1;
+          padding: 20px;
+          text-align: center;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        /* Change color on hover */
+          .topnav a:hover {
+           background-color: #ddd;
+           color: black;
+          }
+            
+    </style>
     </head>
     <body>
         <div class="header">
             <h1 align="center">La joie au gout special</h1>
-            <h2 align="center">Faites vous, vos familles et amis plaisir avec les meilleurs Delices!</h2>
-            <table style="width:30%">
-                <tr>
-                    <th align="center"><a href ="Cake.html">Anniversaires?</a></th>
-                    <th align="center"> <a href="snack">A grignoter?</a></th>
-
-                </tr>
-            </table>
-             <div id="logo">
-                    <img src = "TheLogo1.jpg" alt="Company Logo here!">
-             </div>
+            <h3 align="center">Faites vous, vos familles et amis plaisir avec les meilleurs Delices!</h3>
         </div >
-        
+       
+        <div class="topnav">
+            <a href ="Cake.html">Gateau</a>
+            <a href="snack">Gouter</a>
+        </div>
+    
+        <div id="logo">
+                    <img src = "TheLogo1.jpg" alt="Company Logo here!">
+        </div>
 
         <div class="body">
             <!--
